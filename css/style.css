@@ -111,6 +111,14 @@ p.text-white{
     background-color: lightgray
 }
 
+.background-violet{
+    background-color: rgb(206, 154, 255);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+}
+
 .question{
     background-image: url(../img/stars.svg);
     background-size: cover;
@@ -153,22 +161,64 @@ p.text-white{
 .square-salmon{
     height: 490px;
     width: 350px;
-    border: dashed black;
-    background-color: salmon;
     margin-top: 15px;
+}
+
+h3.violet{
+    color: rgb(94, 9, 174);
+    font-size: x-large;
+    padding-top: 40px;
+}
+
+.bandieraitalia{
+    height: 12px;
+    width: 20px;
+}
+
+.italiano{
+    margin: 10px 0px;
+    color: white;
+}
+
+.icon{
+    padding-right: 10px;
+    color: white;
+}
+
+#Prodotto{
+    color: rgb(94, 9, 174);
+}
+
+#Compagnia{
+    color: rgb(94, 9, 174);
+}
+
+#Risorse{
+    color: rgb(94, 9, 174);
+}
+
+#Norme{
+    color: rgb(94, 9, 174);
 }
 
 .square-acquamarine{
     height: 490px;
     width: 175px;
-    border: dashed white;
-    background-color: rgba(107, 252, 252, 0.817);
     margin-top: 15px;
+}
+
+ul.text-white{
+    margin: 30px;
+}
+
+li{
+    padding-bottom: 20px;
+    list-style-type: none;
 }
 /*fine main*/
 
 hr{
-    color: white;
+    color: rgb(94, 9, 174);
 }
 
 /*footer*/
@@ -182,28 +232,28 @@ footer{
 .container-footer{
     height: 50px;
     width: 1050px;
-    background-color: aquamarine;
     margin-top: 10px;
-    border: solid rgba(0, 0, 0, 0.888);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo-pink{
-    height: auto;
-    width: auto;
-    border: dashed black;
-    padding: 2px;
-    background-color: lightpink;
+    height: 40px;
+    width: 200px;
+    padding: 5px;
+    margin-top: 15px;
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
 }
 
-.bottone{
+.button-violet{
     height: auto;
     width: auto;
-    border: dashed black;
-    padding: 2px;
-    background-color: lightpink;
+    padding: 5px;
+    font-size: 13px;
+    background-color: rgb(206, 154, 255);
+    color: white;
 }
 
 /* Utility */
@@ -257,3 +307,5 @@ button{
 .paragrafo{
     padding-top: 20px;
 }
+
+
