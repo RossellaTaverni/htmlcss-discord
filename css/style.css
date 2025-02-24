@@ -1,0 +1,193 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* header */
+header{
+    background-color: lightcyan;
+    height: 50px;
+}
+
+.container{
+    max-width: 1180px;
+    margin: 0% auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.square{
+    height: 30px;
+    width: 180px;
+    padding: 3px;
+    border: solid black;
+    border-style: dashed;
+    background-color: lightpink;
+}
+
+.text-align-right{
+    text-align: right;
+}
+
+.squarebig{
+    height: 30px;
+    width: 500px;
+    padding: 3px;
+    border: solid black;
+    border-style: dashed;
+    text-align: center;
+    background-color: lightpink;
+}
+
+/* prima sezione-main*/
+.container-darkblu{
+    height: 430px;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+}
+
+.square-darkmagenta{
+    height: 350px;
+    width: 700px;
+    background-color: darkmagenta;
+    border: solid black;
+    border-style: dashed;
+    margin: 40px;
+}
+
+/*seconda e quarta sezione-main*/
+.container-white{
+    height: 530px;
+    display: flex;
+    justify-content: center;
+}
+
+.square-lightblue{
+    height: 450px;
+    width: 600px;
+    border: dashed black;
+    background-color: lightskyblue;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.square-pink{
+    height: 450px;
+    width: 450px;
+    border: dashed black;
+    background-color: pink;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*terza sezione-main*/
+.container-grey{
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    background-color: lightgray;
+}
+
+.square-lightblue{
+    height: 450px;
+    width: 600px;
+    border: dashed black;
+    background-color: lightskyblue;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.square-pink{
+    height: 450px;
+    width: 450px;
+    border: dashed black;
+    background-color: pink;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*quinta sezione-main*/
+.bigcontainer-grey{
+    height: 980px;
+    display: flex;
+    justify-content: center;
+    background-color: lightgray
+}
+
+.square-green{
+    height: 900px;
+    width: 1050px;
+    border: dashed black;
+    background-color: green;
+    margin: 40px;
+}
+
+/*sesta sezione-main*/
+.container-black{
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.888);
+}
+
+.square-salmon{
+    height: 490px;
+    width: 350px;
+    border: dashed black;
+    background-color: salmon;
+    margin-top: 15px;
+}
+
+.square-acquamarine{
+    height: 490px;
+    width: 175px;
+    border: dashed white;
+    background-color: rgba(107, 252, 252, 0.817);
+    margin-top: 15px;
+}
+/*fine main*/
+
+hr{
+    color: white;
+}
+
+/*footer*/
+footer{
+    background-color: rgba(0, 0, 0, 0.888);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer{
+    height: 50px;
+    width: 1050px;
+    background-color: aquamarine;
+    margin-top: 10px;
+    border: solid rgba(0, 0, 0, 0.888);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-pink{
+    height: auto;
+    width: auto;
+    border: dashed black;
+    padding: 2px;
+    background-color: lightpink;
+}
+
+.bottone{
+    height: auto;
+    width: auto;
+    border: dashed black;
+    padding: 2px;
+    background-color: lightpink;
+}
