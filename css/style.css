@@ -111,12 +111,35 @@ p.text-white{
     background-color: lightgray
 }
 
+.question{
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    text-align: center;
+    margin-top: 600px;
+    padding: 40px
+}
+
+.titolo-question{
+    padding-bottom: 20px;
+}
+
 .square-green{
     height: 900px;
     width: 1050px;
-    border: dashed black;
-    background-color: green;
+    background-image: url(../img/item4-big.svg);
+    background-size: 1030px;
+    background-repeat: no-repeat;
+    background-position: center;
     margin: 40px;
+}
+
+.titolo-centrato{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.paragrafo-centrato{
+    text-align: center;
 }
 
 /*sesta sezione-main*/
