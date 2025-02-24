@@ -85,30 +85,10 @@ p.text-white{
     color: white;
 }
 
-/*seconda e quarta sezione-main*/
-.container-white{
-    height: 530px;
-    display: flex;
-    justify-content: center;
-}
-
-.square-lightblue{
-    height: 450px;
-    width: 600px;
-    border: dashed black;
-    background-color: lightskyblue;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    
-}
-
-.square-pink{
-    height: 450px;
-    width: 450px;
-    border: dashed black;
-    background-color: pink;
-    margin-top: 40px;
-    margin-bottom: 40px;
+/*seconda sezione-main*/
+.blu1-sezione{
+    background-image: url(../img/item1.svg);
+    background-size: 660px;   
 }
 
 /*terza sezione-main*/
@@ -120,24 +100,7 @@ p.text-white{
     background-color: lightgray;
 }
 
-.square-lightblue{
-    height: 450px;
-    width: 600px;
-    border: dashed black;
-    background-color: lightskyblue;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    
-}
-
-.square-pink{
-    height: 450px;
-    width: 450px;
-    border: dashed black;
-    background-color: pink;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
+/*quarta sezione-main*/
 
 /*quinta sezione-main*/
 .bigcontainer-grey{
@@ -231,4 +194,38 @@ button{
     border-radius: 20px;
     font-size: x-small;
     font-weight: 600;
-}    
+}
+
+.container-white{
+    height: 530px;
+    display: flex;
+    justify-content: center;
+}
+
+.square-lightblue{
+    height: 450px;
+    width: 600px;
+    border: dashed black;
+    background-color: lightblue;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.square-pink{
+    height: 450px;
+    width: 450px;
+    border: dashed black;
+    background-color: pink;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: left;
+   padding: 40px; 
+}
+
+.titolo-paragrafo{
+    font-size: 40px;
+}
+
+.paragrafo{
+    padding-top: 20px;
+}
