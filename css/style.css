@@ -92,12 +92,9 @@ p.text-white{
 }
 
 /*terza sezione-main*/
-.container-grey{
-    height: 530px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-    background-color: lightgray;
+.blu2-sezione{
+    background-image: url(../img/item2.svg);
+    background-size: 640px;
 }
 
 /*quarta sezione-main*/
@@ -200,6 +197,14 @@ button{
     height: 530px;
     display: flex;
     justify-content: center;
+}
+
+.container-grey{
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    background-color: lightgray;
 }
 
 .square-lightblue{
