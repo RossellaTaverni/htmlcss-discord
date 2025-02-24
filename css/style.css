@@ -6,7 +6,7 @@
 
 /* header */
 header{
-    background-color: lightcyan;
+    background-color: rgb(52, 94, 243);
     height: 50px;
 }
 
@@ -22,9 +22,7 @@ header{
     height: 30px;
     width: 180px;
     padding: 3px;
-    border: solid black;
-    border-style: dashed;
-    background-color: lightpink;
+    background-color: rgb(52, 94, 243);
 }
 
 .text-align-right{
@@ -33,12 +31,29 @@ header{
 
 .squarebig{
     height: 30px;
-    width: 500px;
+    width: 690px;
     padding: 3px;
-    border: solid black;
-    border-style: dashed;
     text-align: center;
-    background-color: lightpink;
+    background-color: rgb(52, 94, 243);
+    display: flex;
+    justify-content: space-around;
+}
+
+.listaheader > li{
+    display: inline-block;
+    padding-left: 25px;
+    color: white;
+    padding-top: 3px;
+    font-size: medium;
+}
+
+button{
+    padding: 8px;
+    background-color: white;
+    border: 0cap;
+    border-radius: 20px;
+    font-size: x-small;
+    font-weight: 600;
 }
 
 /* prima sezione-main*/
