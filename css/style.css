@@ -94,10 +94,14 @@ p.text-white{
 /*terza sezione-main*/
 .blu2-sezione{
     background-image: url(../img/item2.svg);
-    background-size: 640px;
+    background-size: 650px;
 }
 
 /*quarta sezione-main*/
+.blu3-sezione{
+    background-image: url(../img/item3.svg);
+    background-size: 670px;
+}
 
 /*quinta sezione-main*/
 .bigcontainer-grey{
@@ -210,8 +214,6 @@ button{
 .square-lightblue{
     height: 450px;
     width: 600px;
-    border: dashed black;
-    background-color: lightblue;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -219,8 +221,6 @@ button{
 .square-pink{
     height: 450px;
     width: 450px;
-    border: dashed black;
-    background-color: pink;
     margin-top: 40px;
     margin-bottom: 40px;
     text-align: left;
